@@ -1,0 +1,72 @@
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-decoration: none;
+}
+.note-list-li {
+    /*border: 1px #333333 solid;*/
+    /*box-shadow: #9F9F9F 0px 7px 5px 0px;*/
+    /*border-radius: 5px 5px 5px 5px;*/
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-bottom: rgb(239,235,235) 2px solid;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #333333;
+}
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+a:hover {
+    text-decoration: underline;
+    color: #333333;
+}
+a:visited{
+    text-decoration: none;
+    color: #333333;
+}
+.note-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.note-content{
+    box-sizing: border-box;
+    display: block;
+
+}
+.note-content-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: inherit;
+    margin: -7px 0 4px;
+    letter-spacing: 1px;
+}
+.note-content-article {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.7;
+}
+.note-description a{
+    margin-right: 5px;
+}
+.note-description,.note-description a{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+}
